@@ -1,0 +1,6 @@
+(executable
+ (name main)
+ (public_name main)
+ (libraries miniML.Forest miniML.Parser miniML.Inferencer miniML.Interpreter)
+ (instrumentation
+  (backend bisect_ppx)))
